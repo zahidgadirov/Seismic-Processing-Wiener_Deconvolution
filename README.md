@@ -32,4 +32,6 @@ The Final output demonstrates that despite significant noise, Wiener filter can 
 
 -Yilmaz, Ö. (2001). Seismic Data Analysis. Society of Exploration Geophysicists. (Mathematical theory of Deconvolution).
 
+-Stein, S., & Wysession, M. (2003). An Introduction to Seismology, Earthquakes, and Earth Structure.
+
 -https://en.wikipedia.org/wiki/Wiener_deconvolution (Accessed: March 2026)
