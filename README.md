@@ -8,10 +8,10 @@ and how Wiener Deconvolution can be used to recover reflectivity from noisy data
 The seismic trace $s(t)$ is modeled as the convolution of a reflectivity series $r(t)$ and a source wavelet $w(t)$:
 $$s(t) = r(t) * w(t)$$
 **The Challange**
-In the frequency domain, performing a simple mathematical division ($S(f) / W(f)$) leads to instability and "noise explosion" 
+In the frequency domain, performing a simple mathematical division $S(f) / W(f)$ leads to instability and "noise explosion" 
 because the wavelet (Ricker wavelet used here) value approaches to zero at high frequencies.
 
-**Solution: Wiener Deconvolution **
+**Solution: Wiener Deconvolution**
 To handle the challange, Wiener filter was added in frequency domain. It introduces a stabilization factor $\alpha$
 that represents the Noise-to-Signal ratio:
 $$G(f) = \frac{W^*(f)}{|W(f)|^2 + \alpha}$$
@@ -28,8 +28,8 @@ The Final output demonstrates that despite significant noise, Wiener filter can 
 
 
 **References:**
-Shearer, P. M. (2009). Introduction to Seismology. Cambridge University Press. (Physics of the convolutional model).
+-Shearer, P. M. (2009). Introduction to Seismology. Cambridge University Press. (Physics of the convolutional model).
 
-Yilmaz, Ö. (2001). Seismic Data Analysis. Society of Exploration Geophysicists. (Mathematical theory of Deconvolution).
+-Yilmaz, Ö. (2001). Seismic Data Analysis. Society of Exploration Geophysicists. (Mathematical theory of Deconvolution).
 
-https://en.wikipedia.org/wiki/Wiener_deconvolution (Accessed: March 2026)
+-https://en.wikipedia.org/wiki/Wiener_deconvolution (Accessed: March 2026)
