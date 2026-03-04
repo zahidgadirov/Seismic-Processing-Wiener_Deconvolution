@@ -31,6 +31,7 @@ The Final output demonstrates that despite significant noise, Wiener filter can 
 
 
 **References:**
+
 -Shearer, P. M. (2009). Introduction to Seismology. Cambridge University Press. (Physics of the convolutional model).
 
 -Yilmaz, Ö. (2001). Seismic Data Analysis. Society of Exploration Geophysicists. (Mathematical theory of Deconvolution).
