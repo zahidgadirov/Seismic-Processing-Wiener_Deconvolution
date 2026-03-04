@@ -1,7 +1,7 @@
 Synthetic Seismic Modelling and Wiener Deconvolution
 
 **Overview**
-This project simulates the fundamental convolutional model of seismic trace, demonstrates ohw seismic signal is generated from geological boundaries
+This project simulates the fundamental convolutional model of seismic trace, demonstrates how seismic signal is generated from geological boundaries
 and how Wiener Deconvolution can be used to recover reflectivity from noisy data.
 
 **Theoretical Background**
