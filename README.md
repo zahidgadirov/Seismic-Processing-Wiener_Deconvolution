@@ -44,4 +44,3 @@ The Final output demonstrates that despite significant noise, Wiener filter can 
 
 -Stein, S., & Wysession, M. (2003). An Introduction to Seismology, Earthquakes, and Earth Structure.
 
--https://en.wikipedia.org/wiki/Wiener_deconvolution (Accessed: March 2026)
