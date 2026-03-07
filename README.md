@@ -30,7 +30,8 @@ $$G(f) = \frac{W^*(f)}{|W(f)|^2 + \alpha}$$
 3. Convolution: convolved the reflectivity with the wavelet
 4. Random noise: added random noise
 5. Processing: Transformed the signal to frequency domain using FFT, applied the Wiener Filter to recover reflectivities (geological layer boundaries).
-
+6. Quantitative evaluation of estimated reflectivities.
+   
 **Key Results:**
 
 The Final output demonstrates that despite significant noise, Wiener filter can collapse noisy wavelet into distinct spikes that align with original geology, despite the thin layer thicknesses.
