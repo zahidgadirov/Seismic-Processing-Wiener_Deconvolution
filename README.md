@@ -7,9 +7,9 @@ and how Wiener Deconvolution can be used to recover reflectivity from noisy data
 
 **Theoretical Background:**
 
-The seismic trace $s(t)$ is modeled as the convolution of a reflectivity series $r(t)$ and a source wavelet $w(t)$:
+The seismic trace $s(t)$ is modeled as the convolution of a reflectivity series $r(t)$ and a source wavelet $w(t)$, with addition of noise $n(t)$:
 
-$$s(t) = r(t) * w(t)$$
+$$s(t) = r(t) * w(t)+ n(t)$$
 
 **The Challenge:**
 
